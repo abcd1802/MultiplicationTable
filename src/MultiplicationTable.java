@@ -27,24 +27,24 @@ public class MultiplicationTable {
 //		System.out.println("3 * 9 = " + 3 * 9 + "\n");
 		
 		// four times table
-		int result = 4 * 1;
-		System.out.println(result);
-		result = 4 * 2;
-		System.out.println(result);
-		result = 4 * 3;
-		System.out.println(result);
-		result = 4 * 4;
-		System.out.println(result);
-		result = 4 * 5;
-		System.out.println(result);
-		result = 4 * 6;
-		System.out.println(result);
-		result = 4 * 7;
-		System.out.println(result);
-		result = 4 * 8;
-		System.out.println(result);
-		result = 4 * 9;
-		System.out.println(result);
+//		int result = 4 * 1;
+//		System.out.println(result);
+//		result = 4 * 2;
+//		System.out.println(result);
+//		result = 4 * 3;
+//		System.out.println(result);
+//		result = 4 * 4;
+//		System.out.println(result);
+//		result = 4 * 5;
+//		System.out.println(result);
+//		result = 4 * 6;
+//		System.out.println(result);
+//		result = 4 * 7;
+//		System.out.println(result);
+//		result = 4 * 8;
+//		System.out.println(result);
+//		result = 4 * 9;
+//		System.out.println(result);
 		
 		System.out.println("구구단 중 출력할 단은?: ");
 		Scanner scanner = new Scanner(System.in);
@@ -58,6 +58,5 @@ public class MultiplicationTable {
 		System.out.println(number * 7);
 		System.out.println(number * 8);
 		System.out.println(number * 9);
-
-}
+	}
 }
