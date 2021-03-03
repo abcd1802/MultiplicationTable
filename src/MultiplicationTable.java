@@ -74,16 +74,31 @@ public class MultiplicationTable{
 //		System.out.println(input + " * 8 = " + input * 8);
 //		System.out.println(input + " * 9 = " + input * 9);
 		
-		// six time table
-		int i = 1; // starting point of iteration
-		while(i < 10) {
-			System.out.println("6 * " + i + " = "+ 6 * i);
-			i = i + 1;
-		}
+//		// six time table
+//		int i = 1; // starting point of iteration
+//		while(i < 10) {
+//			System.out.println("6 * " + i + " = "+ 6 * i);
+//			i = i + 1;
+//		}
+//		
+//		// seven time table
+//		for(int j = 1; j < 10; j++) {
+//			System.out.println("7 * " + j + " = " + 7 * j);
+//		}
 		
-		// seven time table
-		for(int j = 1; j < 10; j++) {
-			System.out.println("7 * " + j + " = " + 7 * j);
+
+		// eight times table / nine times table
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("구구단을 출력할 단: ");
+		int input = scanner.nextInt();
+		if(input < 2) {
+			System.out.println("2이상, 9이하의 값만 입력할 수 있습니다.");
+		} else if(input > 9) {
+			System.out.println("2이상, 9이하의 값만 입력할 수 있습니다.");
+		} else {
+			for(int i = 1; i < 10; i++) {
+				System.out.println(input + " * " + i + " = " + input * i);
+			}
 		}
 	}
 }
